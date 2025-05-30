@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "kjs-progression-limiter",
+	"version": "${version}",
+	"name": "KJ's Progression Limiter",
+	"description": "Command-based progession locks developed for KJ's Progression Pack. Designed for use with Puffish Skill Trees.",
+	"authors": [
+		"KJ"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/kjs-progression-limiter/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.kj.kjsprogressionlimiter.KJsProgressionLimiter"
+		],
+		"fabric-datagen": [
+			"com.kj.kjsprogressionlimiter.KJsProgressionLimiterDataGenerator"
+		],
+		"client": [
+			"com.kj.kjsprogressionlimiter.KJsProgressionLimiterClient"
+		]
+	},
+	"mixins": [
+		"kjs-progression-limiter.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
