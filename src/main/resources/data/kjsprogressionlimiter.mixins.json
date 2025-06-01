@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.kj.kjsprogressionlimiter.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ModEntityDataSaver"
+  ],
+  "client": [
+    "ExampleMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
