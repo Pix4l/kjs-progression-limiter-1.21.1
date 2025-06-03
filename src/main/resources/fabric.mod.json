@@ -8,8 +8,8 @@
 		"KJ"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://modrinth.com/project/kjs-progression-limiter/",
+		"sources": "https://github.com/Pix4l/kjs-progression-limiter-1.21.1"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/kjs-progression-limiter/icon.png",
