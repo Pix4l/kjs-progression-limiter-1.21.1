@@ -3,13 +3,10 @@ package com.kj.kjsprogressionlimiter;
 import com.kj.kjsprogressionlimiter.util.IEntityDataSaver;
 import com.kj.kjsprogressionlimiter.util.InitialToolBlacklist;
 import net.fabricmc.api.ClientModInitializer;
-import net.fabricmc.fabric.api.client.networking.v1.ClientPlayConnectionEvents;
-import net.fabricmc.fabric.api.event.Event;
 import net.fabricmc.fabric.api.networking.v1.ServerPlayConnectionEvents;
-import net.minecraft.client.MinecraftClient;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.nbt.NbtCompound;
-import net.minecraft.text.Text;
+
 
 public class KJsProgressionLimiterClient implements ClientModInitializer {
 
