@@ -1,9 +1,9 @@
 {
 	"schemaVersion": 1,
 	"id": "kjs-progression-limiter",
-	"version": "${version}",
+	"version": "1.1.2",
 	"name": "KJ's Progression Limiter",
-	"description": "Command-based progession locks developed for KJ's Progression Pack. Designed for use with Puffish Skill Trees.",
+	"description": "Command-based progression locks developed for KJ's Progression Pack. Designed for use with Puffish Skill Trees.",
 	"authors": [
 		"KJ"
 	],
